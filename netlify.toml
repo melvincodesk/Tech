@@ -2,6 +2,8 @@
   base = "client"
   publish = "dist"
   command = "npm run build"
+  [build.environment]
+    VITE_API_URL = "https://tech-1vxa.onrender.com"
 
 [[redirects]]
   from = "/*"
